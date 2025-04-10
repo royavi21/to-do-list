@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="main-wrapper">
+    <h1>🎯 Make your to-do list!</h1>
+
+    <!-- Input section is now at the top -->
+    <div class="input-section">
+      <input type="text" id="taskInput" placeholder="✍️ Type your task..." />
+      <button onclick="addTask()"> + Add</button>
+    </div>
+
+    <div class="container">
+      <ul id="taskList"></ul>
+    </div>
+    <footer>
+      Design & Built by <a href="https://github.com/royavi21" target="_blank">Avijit Roy </a> | 2025
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
